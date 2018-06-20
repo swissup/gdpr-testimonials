@@ -4,4 +4,7 @@
     <event name="swissup_gdpr_personal_data_forms_load_before">
         <observer name="swissup_testimonials_register_form" instance="Swissup\GdprTestimonials\Observer\RegisterPersonalDataForm" />
     </event>
+    <event name="swissup_gdpr_personal_data_handlers_load_before">
+        <observer name="swissup_testimonials_register_handlers" instance="Swissup\GdprTestimonials\Observer\RegisterPersonalDataHandler" />
+    </event>
 </config>
