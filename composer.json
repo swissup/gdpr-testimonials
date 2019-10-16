@@ -6,11 +6,11 @@
         "testimonials"
     ],
     "type": "magento2-module",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "license": "OSL-3.0",
     "require": {
-        "swissup/module-gdpr": "^1.1.0",
-        "swissup/module-testimonials": "^1.2.0"
+        "swissup/module-gdpr": "^1.2.0",
+        "swissup/module-testimonials": "^1.2.5"
     },
     "autoload": {
         "files": [ "registration.php" ],
